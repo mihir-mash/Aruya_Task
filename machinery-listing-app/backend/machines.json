@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Excavator X200",
+    "category": "Excavator",
+    "location": "New York",
+    "price_per_day": 250.0,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Bulldozer B300",
+    "category": "Bulldozer",
+    "location": "Los Angeles",
+    "price_per_day": 300.0,
+    "available": false
+  },
+  {
+    "id": 3,
+    "name": "Crane C150",
+    "category": "Crane",
+    "location": "Chicago",
+    "price_per_day": 400.0,
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Forklift F100",
+    "category": "Forklift",
+    "location": "Houston",
+    "price_per_day": 120.0,
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Backhoe B200",
+    "category": "Backhoe",
+    "location": "Phoenix",
+    "price_per_day": 180.0,
+    "available": false
+  }
+]
