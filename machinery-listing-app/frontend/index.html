@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Machinery Rental Listings</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Machinery Rental Platform</h1>
+    </header>
+    <section class="filters">
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+      </select>
+      <select id="locationFilter">
+        <option value="">All Locations</option>
+      </select>
+      <select id="availabilityFilter">
+        <option value="">All Availability</option>
+        <option value="true">Available</option>
+        <option value="false">Not Available</option>
+      </select>
+      <label>
+        Price Range:
+        <input type="number" id="priceMin" placeholder="Min" min="0" />
+        -
+        <input type="number" id="priceMax" placeholder="Max" min="0" />
+      </label>
+      <button id="applyFilters">Apply Filters</button>
+    </section>
+    <main id="machinesContainer" class="grid"></main>
+    <script src="script.js"></script>
+  </body>
+</html>
